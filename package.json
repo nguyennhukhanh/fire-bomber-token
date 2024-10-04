@@ -1,0 +1,27 @@
+{
+  "name": "fire-bomber-token",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "nguyennhukhanh <https://github.com/nguyennhukhanh>",
+  "scripts": {
+    "compile": "hardhat compile",
+    "console": "hardhat console",
+    "node": "hardhat node",
+    "test": "hardhat test",
+    "help": "hardhat help",
+    "coverage": "hardhat coverage",
+    "verify": "hardhat run scripts/deploy.ts --network bscTestnet",
+    "format": "prettier --write \"contracts/**/*.sol\" \"test/**/*.ts\" \"ignition/**/*.ts\" \"scripts/**/*.ts\"",
+    "flatten": "npx hardhat flatten"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.11",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
